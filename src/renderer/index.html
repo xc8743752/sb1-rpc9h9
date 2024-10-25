@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Window Synchronizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Window Synchronizer</h1>
+    
+    <div>
+      <button id="addWindow">Add Current Window</button>
+      <button id="startSync">Start Sync</button>
+      <button id="stopSync">Stop Sync</button>
+    </div>
+
+    <div class="status inactive" id="status">Status: Inactive</div>
+
+    <div class="window-list" id="windowList">
+      <h2>Synchronized Windows</h2>
+      <div id="windows"></div>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
